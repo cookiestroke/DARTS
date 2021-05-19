@@ -3,7 +3,7 @@
 **Learning about The Key Approaches used In Prior Work for Neural Architecture Search and Implementing DARTS**
 
 
-1. We observe the effect of the network size on the DARTS architecture. The code used to generate the DARTS architecture is given [here](https://github.com/dragen1860/DARTS-PyTorch).
+1. We observe the effect of the network size on the DARTS architecture. The code used to generate the DARTS architecture is given [here](https://github.com/dragen1860/DARTS-PyTorch). To run exponentiated gradient, replace the ```arch.py``` file with the one in this repo. We have modified the step function to use exponentiated gradient descent in the ```arch.py``` file. 
 
 We use the command 
 <pre>
